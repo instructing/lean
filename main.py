@@ -46,4 +46,4 @@ async def on_ready():
     await bot.load_extension('cogs.commands.role')
     
 
-bot.run('OTU3NzkzNjI1MzM5NzIzODA2.YkD80w.ztxMpZnawZldxhNCZTr_RmXOiRw')
+bot.run('Token Here')
