@@ -32,10 +32,6 @@ bot = commands.AutoShardedBot(
     case_insensitive=True,
 )
 
-y = Fore.LIGHTYELLOW_EX
-b = Fore.LIGHTBLUE_EX
-w = Fore.LIGHTWHITE_EX
-
 @bot.event
 async def on_ready():
     clear()
@@ -46,4 +42,4 @@ async def on_ready():
     await bot.load_extension('cogs.commands.role')
     
 
-bot.run('Token Here')
+bot.run('OTU3NzkzNjI1MzM5NzIzODA2.YkD80w.AIB175VK1ElnAFqMerRpL_ODMwY')
